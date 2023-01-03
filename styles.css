@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#canvas {
+    background-color: lightcyan;
+    width: 1000px;
+    height: 600px;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
